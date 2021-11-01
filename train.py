@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
     device = torch.device(args.device)
 
-    path = osp.expanduser('~/datasets')
+    path = osp.expanduser('../data')
     path = osp.join(path, args.dataset)
     dataset = get_dataset(path, args.dataset)
 
